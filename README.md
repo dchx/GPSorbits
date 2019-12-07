@@ -1,0 +1,5 @@
+# GPSorbits
+
+Measuring GPS satellite orbits with mobile GPS software
+
+A GPS software installed on a mobile phone can locate our position on the earth (longitude and latitude) as well as GPS satellites' positions (altitude and azimuth) in the sky. I provide a method to measure GPS satellites' orbital elements only with mobile GPS softwares. I collected several GPS satellites' position data with local time and calculated their orbital elements, with errors of less than 2.54 degrees compared with the official orbital data from US National Coordination Office (NCO) for Space-Based Positioning, Navigation, and Timing (PNT). Based on the orbital elements I calculated, I forecasted some of the satellites' positions during a specific period. To verify my forecast, I measured these satellites' positions using my mobile phone in this period. The observed values and the theoretical forecast fits well. Using my method, we can measure any satellite's orbit and forecast its position with given observed data.
